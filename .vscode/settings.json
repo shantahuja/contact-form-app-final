@@ -1,0 +1,17 @@
+{
+    "serverlessConsole.services": [
+        {
+            "type": "cloudformation",
+            "title": "contact-form-app-final",
+            "timeOffsetInMs": 0,
+            "awsProfile": "default",
+            "stacks": [
+                {
+                    "region": "us-west-2",
+                    "stackName": "contact-form-app-final",
+                    "stage": "dev"
+                }
+            ]
+        }
+    ]
+}

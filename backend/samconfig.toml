@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "contact-form-app-final"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-jymltwfn583t"
+s3_prefix = "contact-form-app-final"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "DynamoDBTableStreamARN=\"arn:aws:dynamodb:us-west-2:537743349858:table/contactformtable-dev/stream/2021-03-18T08:40:55.277\" FromMailIdentityName=\"shantahuja1@gmail.com\" ToMailIdentityName=\"shantahuja@gmail.com\""
